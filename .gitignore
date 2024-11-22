@@ -1,0 +1,19 @@
+# Ignore data folders
+creation_logs/
+Logs/
+Data/
+outputs/
+multirun/
+
+# Ignore potentially large files
+# *.fits
+*.tar.gz
+
+# Ignore local system files
+.vscode/
+*/__pycache__/
+__pycache__/
+.DS_Store
+*/.DS_Store
+
+

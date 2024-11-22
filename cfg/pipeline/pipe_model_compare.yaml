@@ -1,0 +1,17 @@
+pixel_comparison:
+  assets_out:
+    latex_report:
+      path_template: "{root}/{dataset}/Analysis/{stage}/latex_px_comparison.txt"
+      handler: TextHandler
+  assets_in:
+    overall_stats: {stage: pixel_summary_tables}
+  dir_name: Final_Analysis_13_Pixel_Comparison
+
+ps_comparison:
+  assets_out:
+    latex_report:
+      path_template: "{root}/{dataset}/Analysis/{stage}/latex_ps_comparison.txt"
+      handler: TextHandler
+  assets_in:
+    epoch_stats: {stage: ps_summary_tables}
+  dir_name: Final_Analysis_15_Ps_Compare
